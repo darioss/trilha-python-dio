@@ -8,3 +8,6 @@ print(sorteio)
 
 sorteio.add(25)  # {1, 23, 25, 42}
 print(sorteio)
+
+sorteio.add(1525) #{1, 23, 25, 42, 1525}
+print(sorteio)

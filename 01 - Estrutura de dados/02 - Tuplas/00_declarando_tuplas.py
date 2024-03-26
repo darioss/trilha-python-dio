@@ -1,3 +1,4 @@
+#Create tuple with () sintaxis. Is a good practice use comma after last element
 frutas = (
     "laranja",
     "pera",
@@ -5,6 +6,7 @@ frutas = (
 )
 print(frutas)
 
+#Create tuple with tuple
 letras = tuple("python")
 print(letras)
 
@@ -13,3 +15,8 @@ print(numeros)
 
 pais = ("Brasil",)
 print(pais)
+
+print(numeros[3])
+print(pais[-1])
+print(frutas[-2])
+print(letras[2])
