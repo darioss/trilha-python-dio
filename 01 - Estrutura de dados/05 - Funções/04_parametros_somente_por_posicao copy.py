@@ -1,3 +1,5 @@
+# After (/) the params must be named form in call function (like this - motor="V8")
+# Before (/) the params must call for position (like this - (modelo, placa, ano)) 
 def criar_carro(modelo, ano, placa, /, marca, motor, combustivel):
     print(modelo, ano, placa, marca, motor, combustivel)
 
